@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	background-color: #b80d57;
+}
+
+li {
+	display: inline-block;
+	background-color: #b80d57;
+	padding: 10px;
+}
+
+li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+li a:hover {
+	color: #fff;
+	font-weight: bold;
+}
+
+footer {
+	background-color: #b80d57;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+footer p {
+	text-align: center;
+}
